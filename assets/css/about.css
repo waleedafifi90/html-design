@@ -133,7 +133,11 @@ main {
   left: 0;
   bottom: 0;
   background: #ffb037;
+  transition: all 550ms;
+}
 
+.parallax-section h2:hover::after {
+  width: 100%;
 }
 
 .team-member {
